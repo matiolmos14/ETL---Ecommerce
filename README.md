@@ -1,10 +1,4 @@
-# Pipeline ETL: Optimización y Analytics para E-commerce Multicanal
-
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Library-Pandas-150458.svg)](https://pandas.pydata.org/)
-[![Data-Engineering](https://img.shields.io/badge/Domain-Data%20Engineering-green.svg)]()
-[![Supply-Chain](https://img.shields.io/badge/Domain-Supply%20Chain-orange.svg)]()
-
+# Pipeline ETL: Optimización y Analytics para E-commerce
 Este proyecto despliega un ecosistema **ETL (Extract, Transform, Load)** robusto, diseñado para transformar datos crudos de comercio electrónico en inteligencia de negocio accionable. El sistema integra flujos de ventas con métricas avanzadas de **Supply Chain Management**.
 
 ## Objetivo del Proyecto
