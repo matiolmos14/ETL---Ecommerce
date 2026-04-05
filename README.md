@@ -40,3 +40,45 @@ El script `etl.py` implementa una arquitectura de procesamiento en 6 etapas secu
 ├── etl.py               # Script principal del pipeline
 ├── README.md            # Documentación del proyecto
 └── requirements.txt     # Listado de librerías necesarias
+📦 Guía de Instalación y Ejecución
+Sigue estos pasos detallados para configurar el proyecto desde cero:
+
+1. Inicializar el Repositorio
+Si estás creando el proyecto por primera vez:
+
+Bash
+mkdir ecommerce-etl-pipeline
+cd ecommerce-etl-pipeline
+git init
+2. Configurar el Entorno Virtual
+Es fundamental para mantener las dependencias aisladas.
+
+En Windows:
+
+Bash
+python -m venv venv
+.\venv\Scripts\activate
+En Mac/Linux:
+
+Bash
+python3 -m venv venv
+source venv/bin/activate
+3. Instalar Dependencias
+Instala las librerías necesarias para el procesamiento y optimización de datos:
+
+Bash
+pip install pandas pyarrow
+# Opcional: generar el archivo de requerimientos
+pip freeze > requirements.txt
+4. Ejecutar el Pipeline
+Asegúrate de tener los archivos .json en la carpeta data/ y ejecuta:
+
+Bash
+python etl.py
+Nota: Al finalizar, el script creará automáticamente la carpeta /output con todos los reportes de logística y ventas generados.
+
+📊 Auditoría de Eficiencia
+El sistema incluye un módulo de auditoría de almacenamiento que compara formatos. En este flujo, el formato Parquet demostró ser significativamente más eficiente en espacio y velocidad de lectura que el CSV tradicional, optimizando costos potenciales de infraestructura de datos en entornos de producción.
+
+👨‍💻 Autor
+Matías Olmos Ingeniero Industrial
