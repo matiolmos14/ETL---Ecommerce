@@ -55,6 +55,7 @@ mkdir ecommerce-etl-pipeline
 cd ecommerce-etl-pipeline
 git init
 ```
+
 ### 2. Configurar el Entorno Virtual
 Es fundamental para mantener las dependencias aisladas y evitar conflictos con otras librerías del sistema.
 
@@ -68,18 +69,21 @@ python -m venv venv
 python3 -m venv venv
 source venv/bin/activate
 ```
+
 ### 3. Instalar Dependencias
 Instala las librerías necesarias para el procesamiento, transformación y optimización de datos:
 
 ```bash
 pip install pandas pyarrow
 ```
+
 ### 4. Ejecutar el Pipeline
 Asegúrate de tener los archivos fuente (`.json`) dentro de la carpeta `data/` en la raíz del proyecto y ejecuta el script:
 
 ```bash
 python etl.py
 ```
+
 ## Auditoría de Eficiencia
 El sistema incluye un módulo de auditoría de almacenamiento que compara formatos de salida. En este flujo, el formato **Parquet** demostró ser significativamente más eficiente en espacio y velocidad de lectura que el **CSV** tradicional, optimizando costos potenciales de infraestructura de datos en entornos de producción.
 
