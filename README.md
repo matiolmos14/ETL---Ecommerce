@@ -41,7 +41,7 @@ El script `etl.py` implementa una arquitectura de procesamiento en 6 etapas secu
 ├── README.md            # Documentación del proyecto
 └── requirements.txt     # Listado de librerías necesarias
 
-# 📦 Guía de Instalación y Ejecución
+## 📦 Guía de Instalación y Ejecución
 
 Sigue estos pasos detallados para configurar el proyecto desde cero:
 
