@@ -1,4 +1,4 @@
-# 🚀 Pipeline ETL: Optimización y Analytics para E-commerce Multicanal
+# Pipeline ETL: Optimización y Analytics para E-commerce Multicanal
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Library-Pandas-150458.svg)](https://pandas.pydata.org/)
@@ -7,12 +7,12 @@
 
 Este proyecto despliega un ecosistema **ETL (Extract, Transform, Load)** robusto, diseñado para transformar datos crudos de comercio electrónico en inteligencia de negocio accionable. El sistema integra flujos de ventas con métricas avanzadas de **Supply Chain Management**.
 
-## 🎯 Objetivo del Proyecto
+## Objetivo del Proyecto
 Desarrollar un pipeline automatizado que consolide 11 fuentes de datos independientes, resuelva inconsistencias operativas y genere KPIs críticos de **logística** y **rentabilidad**.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 * **Lenguaje:** Python 3.10+
 * **Procesamiento:** Pandas (DataFrames, Agregaciones complejas, Joins)
 * **Almacenamiento Optimizado:** PyArrow (Engine para archivos Parquet)
@@ -20,7 +20,7 @@ Desarrollar un pipeline automatizado que consolide 11 fuentes de datos independi
 
 ---
 
-## ⚙️ Arquitectura del Pipeline
+## Arquitectura del Pipeline
 
 El script `etl.py` implementa una arquitectura de procesamiento en 6 etapas secuenciales:
 
@@ -33,7 +33,7 @@ El script `etl.py` implementa una arquitectura de procesamiento en 6 etapas secu
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 ├── data/                # Carpeta con los 11 archivos JSON fuente
@@ -43,7 +43,7 @@ El script `etl.py` implementa una arquitectura de procesamiento en 6 etapas secu
 └── requirements.txt     # Listado de librerías necesarias
 ```
 
-# 📦 Guía de Instalación y Ejecución
+# Guía de Instalación y Ejecución
 
 Sigue estos pasos detallados para configurar el proyecto desde cero:
 
@@ -80,10 +80,10 @@ Asegúrate de tener los archivos fuente (`.json`) dentro de la carpeta `data/` e
 ```bash
 python etl.py
 ```
-## 📊 Auditoría de Eficiencia
+## Auditoría de Eficiencia
 El sistema incluye un módulo de auditoría de almacenamiento que compara formatos de salida. En este flujo, el formato **Parquet** demostró ser significativamente más eficiente en espacio y velocidad de lectura que el **CSV** tradicional, optimizando costos potenciales de infraestructura de datos en entornos de producción.
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 **Matías Olmos** *Ingeniero Industrial | Data Engineer*
