@@ -22,7 +22,7 @@ El script `etl.py` implementa una arquitectura de procesamiento en 6 etapas secu
 2. **Tratamiento de Datos Críticos (Cleaning):** Eliminación de registros sin `customer_id` o `total_amount` e imputación inteligente de campos opcionales (`notes`, `promotion_id`).
 3. **Gestión de Ciclo de Vida (Deduplicación):** Lógica de **"Último Registro Válido"** para conservar únicamente el estado más reciente de cada transacción tras ordenamiento cronológico.
 4. **Optimización de Memoria (Transform):** Conversión de objetos a tipos `category`, reduciendo significativamente el consumo de memoria RAM.
-5. **Lógica de Negocio (Analytics):** Cálculo de **LTV (Lifetime Value)**, tendencias temporales, **% de ocupación de depósitos** e **índice de rotación de stock**.
+5. **Lógica de Negocio (Analytics):** Cálculo del **Top 5 de clientes (Gasto Acumulado)**, identificación del **producto más vendido**, tendencias de **facturación mensual**, **% de ocupación por depósito** e **índice de rotación de stock**.
 6. **Carga Eficiente (Load):** Persistencia en **CSV** (para consumo humano) y **Parquet** (formato columnar optimizado para ingeniería de datos).
 
 ---

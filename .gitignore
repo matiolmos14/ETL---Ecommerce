@@ -1,0 +1,9 @@
+# Entorno virtual y caché
+venv/
+__pycache__/
+*.pyc
+
+# Datos y archivos de configuración
+.env
+data/*.json
+output/
